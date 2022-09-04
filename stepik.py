@@ -442,9 +442,15 @@
 # print(abs(a)+abs(b)+abs(c)+abs(d)+abs(e))
 
 
-p1=int(input())
-p2=int(input())
-q1=int(input())
-q2=int(input())
+# p1=int(input())
+# p2=int(input())
+# q1=int(input())
+# q2=int(input())
+#
+# print(abs(p1-q1)+abs(p2-q2))
 
-print(abs(p1-q1)+abs(p2-q2))
+m= int(input('1'))
+n=int(input('1'))
+for i in range(m,n,-1):
+    if i %2!=0:
+        print(i)
